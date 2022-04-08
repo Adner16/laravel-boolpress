@@ -8,7 +8,7 @@
     <title>Elenco Post</title>
 </head>
 <body>
-    <div class=".container-sm">
+    <div class="container-sm">
     <a href="{{route('admin.posts.create')}}" class="btn text-right">Aggiungi</a>
         @foreach($posts as $post)
             <h2 class="text-center">{{$post->title}}</h2>

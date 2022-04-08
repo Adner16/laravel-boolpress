@@ -66,7 +66,7 @@
         <script src="{{ asset('js/front.js') }}" defer></script>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div class="flex-center">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
